@@ -1,0 +1,14 @@
+@font-face {
+    font-family: byekan;
+    src: url('/wwwroot/fonts/Yekan/Yekan.eot');
+    src: url('/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('/wwwroot/fonts/Yekan/Yekan.woff') format('woff'),
+         url('/wwwroot/fonts/Yekan/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.yekan-font{
+    font-family: byekan !important;
+}
+
