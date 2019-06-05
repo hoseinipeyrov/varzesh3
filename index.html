@@ -12,6 +12,11 @@
     
     <link rel="stylesheet" href="/wwwroot/css/site.css">
     <title>Varzesh 3 TV</title>
+    <style>
+    table, td,tr,th{
+        border:1px solid black;
+    }
+    </style>
 </head>
 
 <body dir="rtl">
@@ -71,11 +76,53 @@
         </div>
     </header>
     <div class="page-content">
+        <br>
+        <br>
+        <br>
+        <br>
+            <!-- <table dir="ltr">
+                <thead>
+                    <th>bookname</th>
+                    <th>bookurl</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table> -->
+            <ul id="myul">
 
+            </ul>
     </div>
     <footer>
 
     </footer>
+    <script src="/wwwroot/libs/jquery/dist/jquery.min.js"></script>
+    <script>
+        $.ajax({
+        type: "GET",
+        url: "https://api.myjson.com/bins/jb58f",
+        cache: false,
+        success: function(data){
+            var tb="";
+            var li="";
+            var i=0;
+            for(i; i<data.length;i++){
+                tb+= `<tr>
+                         <td>${data[i].bookname}</td>
+                         <td>${data[i].bookurl}</td>
+                      </tr>
+                    `;
+                    li+= `<li>
+                         <a href="${data[i].bookurl}" target="_blank">${data[i].bookname}</a>
+                      </li>
+                    `;
+            }
+           // alert(tb);
+            $("#tbody").html(tb);
+            $("#myul").html(li);
+        }
+        });
+    </script>
 </body>
 
 </html>
