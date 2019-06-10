@@ -6,3 +6,38 @@
     margin-left: auto;
     min-height: 300px;
 }
+
+#first-content-column{
+    min-height: 300px;
+    width: 424px;
+    background-color: lightseagreen;
+    float: right;
+}
+#first-content-column-a{
+    min-height: 300px;
+    width: 212px;
+    background-color: darkolivegreen;
+
+
+}
+#first-content-column-b{
+    min-height: 300px;
+    width: 212px;
+    background-color: cyan;
+
+
+}
+#second-content-column{
+    min-height: 300px;
+    width: 300px;
+    background-color: green;
+    float: right;
+
+}
+#third-content-column{
+    min-height: 300px;
+    width: 130px;
+    background-color: blue;
+    float: right;
+
+}
