@@ -42,7 +42,7 @@
     border: 1px solid gray;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #ddd;
-
+    margin-bottom: 4px;
 }
 .panel-header{
 background-color: #eee;
@@ -65,5 +65,23 @@ font-size: 12pt;
 .panel-body{
     background-color: white;
     min-height: 200px;
-    padding: 5px 10px;
+    padding: 0 5px;
+}
+#lastnews{
+list-style-type:none;
+display: inline;
+}
+#lastnews > li{
+padding-right: 12px;
+background: transparent url(/wwwroot/images/video-bullet.png) no-repeat right 14px;
+}
+
+.news{
+color:#444;
+font-size: 11px;
+line-height: 2.5;
+text-decoration: none;
+}
+.news:visited{
+color:#888;
 }
