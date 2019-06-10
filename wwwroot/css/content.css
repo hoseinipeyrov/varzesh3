@@ -1,7 +1,6 @@
 .content{
     clear: both;
     width: 924px;
-    background-color: bisque;
     margin-right: auto;
     margin-left: auto;
     min-height: 300px;
@@ -9,35 +8,31 @@
 
 #first-content-column{
     min-height: 300px;
-    width: 424px;
-    background-color: lightseagreen;
+    width: 524px;
     float: right;
 }
 #first-content-column-a{
     min-height: 300px;
-    width: 212px;
-    background-color: darkolivegreen;
-
-
+    width: 257px;
+    float: right;
+    margin-left: 5px;
 }
 #first-content-column-b{
     min-height: 300px;
-    width: 212px;
-    background-color: cyan;
-
+    width: 257px;
+    float: right;
+    margin-left: 5px;
 
 }
 #second-content-column{
     min-height: 300px;
-    width: 300px;
-    background-color: green;
+    width: 257px;
     float: right;
-
+    margin-left: 5px;
 }
 #third-content-column{
     min-height: 300px;
     width: 130px;
-    background-color: blue;
     float: right;
 
 }
