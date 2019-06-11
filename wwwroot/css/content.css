@@ -86,3 +86,12 @@ text-decoration: none;
 .news:visited{
 color:#888;
 }
+#lastnewsleft{
+list-style-type: none;
+display: inline;
+}
+#lastnewsleft > li{
+   
+    padding-right: 12px;
+    background: transparent url(/wwwroot/images/video-bullet.png) no-repeat right 14px;
+}
