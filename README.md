@@ -1,4 +1,7 @@
 # varzesh 3
+
+author (:D  Seyed Ahmad Hoseini Peyrov :)
+
 ## 1- install Live server extension
 ![1](https://raw.githubusercontent.com/hoseinipeyrov/varzesh3/master/doc/up-and-run/1.png?token=ADANFBQMRC3Q3K7W2F7J5PS5AYLRO)
 ## 2- open Live Server
